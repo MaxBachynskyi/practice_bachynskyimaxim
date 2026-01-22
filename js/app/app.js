@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function(){
     const main = {
         data(){
             return{
-                url:"http://affiliate.yanbasok.com",
+                url:"https://affiliate.yanbasok.com",
                 user:{name:"", phone:"", email:"", date:"", auth:""},
                 formData:{},
                 title:"",
@@ -83,3 +83,4 @@ document.addEventListener('DOMContentLoaded', function(){
     .use(router)
     .mount('#content')
 })
+
