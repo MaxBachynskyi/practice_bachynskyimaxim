@@ -42,8 +42,8 @@ export const login = {
         
         <div class="auth-panel">
             <div class="auth-header">
-                <img class="auth-logo" :src="parent.url+'/app/views/images/logo.svg'"/>
                 <h1>Affiliate Sign in</h1>
+                <img class="auth-logo" :src="parent.url+'/app/views/images/logo.svg'"/>
             </div>
 
             <div class="form inner-form login-box">
