@@ -87,7 +87,7 @@ export const campaigns = {
     <div class="inside-content">
         <Header ref="header" />
         <div id='spinner' v-if="loader">
-            <img src="/images/loader.gif" alt="Loading..." width="90">
+            <img src="./images/loader.gif" alt="Loading..." width="90">
         </div>
         <div class="wrapper">
             <div class="flex panel">
@@ -164,3 +164,4 @@ export const campaigns = {
     </div>
     `
 };
+
