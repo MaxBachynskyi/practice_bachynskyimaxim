@@ -5,6 +5,7 @@ export const router = VueRouter.createRouter({
     history: VueRouter.createWebHashHistory(),
     routes:[
         { path: '/', name:'Sign in', component: login },
-        { path: '/campaigns', name:'Campaigns', component: campaigns },
+        { path: '/campaigns', name:'Campaigns', component: campaigns }
     ]
 });
+
