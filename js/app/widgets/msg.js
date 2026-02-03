@@ -111,4 +111,3 @@ export const msg = {
     </popup>
     `
 }
-
