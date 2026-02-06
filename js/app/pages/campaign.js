@@ -238,7 +238,7 @@ export const campaign = {
 
             <popup ref="chart" fullscreen="true" title="Chart">
                 <div class="flex panel">
-                    <div class="w30 ptb25"><input type="date" v-model="date" @change="get();" /> - <input type="date" v-model="date2" @change="get();"></div>
+                    <div class="w30 ptb25 date-range"><input type="date" v-model="date" @change="get();" /> - <input type="date" v-model="date2" @change="get();"></div>
                     <div class="w70 al">
                         <div class="flex cubes">
                             <div class="w30 clicks">
@@ -304,7 +304,7 @@ export const campaign = {
                     <div class="w20 ptb30">
                         <h2>Ads</h2>
                     </div>
-                    <div class="w60 ptb20 ac">
+                    <div class="w60 ptb20 ac date-range">
                         <input type="date" v-model="date" @change="get()" /> - <input type="date" v-model="date2" @change="get()" />
                     </div>
                     <div class="w20 al ptb20">
